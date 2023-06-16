@@ -2,7 +2,11 @@ import React from 'react';
 
 export default function MainContainer() {
   const backgroundImage = "url('src/Rimg.png')";
-  const backgroundStyle = `background-image: ${backgroundImage};`;
+  const backgroundStyle = {
+    backgroundImage: backgroundImage,
+    backgroundRepeat: 'no-repeat',
+    backgroundPosition: 'right 85%',
+  };
 
   return (
     <main style={backgroundStyle}>
@@ -18,4 +22,5 @@ export default function MainContainer() {
     </main>
   );
 }
+
 
