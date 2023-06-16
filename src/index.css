@@ -42,7 +42,7 @@ nav > img {
 main {
     padding: 57px 27px;
     color: white;
-    background-image: url("C:\Users\Karthik\Documents\scrimba\first react\class\src\Rimg.png");
+    background-image: url("src\Rimg.png");
     background-repeat: no-repeat;
     background-position: right 85%;
 }
