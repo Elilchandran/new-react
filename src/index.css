@@ -42,7 +42,6 @@ nav > img {
 main {
     padding: 57px 27px;
     color: white;
-    background-image: url("Rimg.png");
     background-repeat: no-repeat;
     background-position: right 85%;
 }
@@ -67,3 +66,21 @@ main {
     font-size: 3rem;
     color:#61DAFB;
 }
+
+.main-container {
+display: flex;
+}
+
+.content-container {
+flex: 1;
+}
+
+.image-container {
+margin-left: auto; /* Move the container to the right margin */
+}
+
+.rimg {
+max-width: 100%;
+}
+
+
