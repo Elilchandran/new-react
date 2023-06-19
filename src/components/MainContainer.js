@@ -1,10 +1,10 @@
-import React from 'react'
-import Rimg from './Rimg.png'
+import React from 'react';
+import Rimg from './Rimg.png';
 
 export default function MainContainer() {
-    return (
-      <main >
-        <img src={Rimg} alt="logo"/>
+  return (
+    <main className="main-container">
+      <div className="content-container">
         <h1 className="h1-item">Fun facts about React</h1>
         <ul className="ul-item">
           <li>It's a popular library, so I'll be able to play in the cool world!</li>
@@ -14,7 +14,12 @@ export default function MainContainer() {
           <li>Was first released in 2013</li>
           <li>Was originally created by Jordan Walke</li>
         </ul>
-      </main>
-    );
-  }
+      </div>
+      <div className="image-container">
+        <img src={Rimg} alt="logo" className="rimg" />
+      </div>
+    </main>
+  );
+}
+
 
