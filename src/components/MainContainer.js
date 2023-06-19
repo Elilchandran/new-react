@@ -4,7 +4,7 @@ import Rimg from './Rimg.png'
 export default function MainContainer() {
     return (
       <main >
-
+        <img src={Rimg} alt="logo"/>
         <h1 className="h1-item">Fun facts about React</h1>
         <ul className="ul-item">
           <li>It's a popular library, so I'll be able to play in the cool world!</li>
